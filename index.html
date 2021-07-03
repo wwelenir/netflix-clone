@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/core.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">
+                <span>Netiflix</span>
+            </h2>
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Series</a>
+                <a href="">Filmes</a>
+                <a href="">Documentarios</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo mb-20">Samurai X: O Final</h3>
+                <p class="info mb-20">2021 | 18 | 2h 19min | Ação e aventura</p>
+                <p class="descricao mb-40">O ano é 1879. Jurados de vingança, Kenshin e seus aliados enfrentam o inimigo
+                    mais forte de todos: Enishi Yukishiro e seus comparsas.</p>
+                <div class="botoes">
+                    <button class="botao-principal cursor-pointer mb-20 mr-20">
+                        <i class="fas fa-play mr-10"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button class="botao-principal-invert cursor-pointer mb-20">
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="destaques">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./assets/img/destaque-1.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-2.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-3.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-4.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-5.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-6.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-7.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-8.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-9.jpg" alt="luca">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/destaque-10.jpg" alt="luca">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<script src="https://kit.fontawesome.com/b0e874b1b7.js" crossorigin="anonymous"></script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3
+            },
+            600: {
+                items: 5
+            },
+            1000: {
+                items: 7
+            }
+        }
+    })
+</script>
